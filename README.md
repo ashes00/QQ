@@ -5,7 +5,7 @@ QQ ("quick query") is a small command-line tool for asking a local-network
 fast — no browser, no chat UI, just a terminal command.
 
 ```bash
-qq what is the capital of France
+qq what is the capital of Canada
 ```
 
 ## What it does
