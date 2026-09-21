@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+*.o
+*.so
+*.a
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Claude Code local settings (machine-specific, never shared)
+.claude/settings.local.json
+
+# Project instructions: contains internal infra details (Gitea host, bot
+# identity, token file path) not meant for the public mirror
+CLAUDE.md
+
+# Pre-existing prior codebase kept alongside this project, not part of it
+OLD-CODEBASE/
+
+# NOTE: dist/ is intentionally NOT ignored here — Flux Linux's convention was
+# to commit built binaries into git history alongside Gitea Releases. Decide
+# per-project (see docs/PROCESS.md #4) and add dist/ here if this project
+# wants Gitea Releases only instead.
